@@ -9,7 +9,7 @@ License  : MIT
 Requires : sway
 BuildRequires :  meson cmake
 BuildRequires :  ffmpeg-dev
-BuildRequires :  opencl-headers-dev opencl-clang-dev
+BuildRequires :  mesa-dev
 BuildRequires :  pkgconfig(scdoc)  
 BuildRequires :  pkgconfig(libpulse)
 BuildRequires :  pkgconfig(wayland-client)
