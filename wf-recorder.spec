@@ -1,5 +1,5 @@
 Name     : wf-recorder
-Version  : 0.3.0
+Version  : 0.4.1
 Release  : 1
 URL      : https://github.com/ammen99/wf-recorder
 Source0  : https://github.com/ammen99/wf-recorder/archive/refs/tags/v%{version}.tar.gz
