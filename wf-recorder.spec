@@ -8,7 +8,7 @@ Group    : Development/Tools
 License  : MIT
 Requires : sway
 BuildRequires :  meson cmake
-BuildRequires :  ffmpeg-dev
+BuildRequires :  not-ffmpeg-dev
 BuildRequires :  mesa-dev
 BuildRequires :  pkgconfig(scdoc)  
 BuildRequires :  pkgconfig(libpulse)
