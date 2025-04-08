@@ -2,7 +2,8 @@ Name     : wf-recorder
 Version  : 0.5.0
 Release  : 1
 URL      : https://github.com/ammen99/wf-recorder
-Source0  : https://github.com/ammen99/wf-recorder/archive/refs/tags/v%{version}.tar.gz
+#Source0  : https://github.com/ammen99/wf-recorder/archive/refs/tags/v%%{version}.tar.gz
+Source0  : https://github.com/ammen99/wf-recorder/archive/refs/heads/master.tar.gz
 Summary  : Utility program for screen recording of wlroots-based compositors
 Group    : Development/Tools
 License  : MIT
@@ -20,7 +21,7 @@ BuildRequires :  pkgconfig(wayland-protocols)
 Utility program for screen recording of wlroots-based compositors
 
 %prep
-%setup -q -n wf-recorder-%{version}
+%setup -q -n wf-recorder-master
 
 %build
 export LANG=C.UTF-8
