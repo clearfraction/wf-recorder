@@ -44,3 +44,4 @@ rm -rf %{buildroot}/usr/share/man
 %files
 %defattr(-,root,root,-)
 /usr/bin/wf-recorder
+/usr/share/fish/fish/vendor_completions.d/wf-recorder.fish
