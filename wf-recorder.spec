@@ -37,6 +37,7 @@ ninja -v -C builddir
 
 %install
 DESTDIR=%{buildroot} ninja -C builddir install
+strip %{buildroot}/usr/bin/wf-recorder
 rm -rf %{buildroot}/usr/share/man
 
 %files
